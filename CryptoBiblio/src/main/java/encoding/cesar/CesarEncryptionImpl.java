@@ -5,7 +5,7 @@ import utils.Convertor;
 /**
  * Created by loic on 19/02/15.
  */
-public class CesarCipherImpl implements CesarCipher {
+public class CesarEncryptionImpl implements CesarEncryption {
 
 
     /**

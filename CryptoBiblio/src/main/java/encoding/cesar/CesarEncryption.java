@@ -3,7 +3,7 @@ package encoding.cesar;
 /**
  * Created by lePetitBidouilleur on 19/02/15.
  */
-public interface CesarCipher {
+public interface CesarEncryption {
 
     /**
      * This method is for encrypt data with Cesar method.

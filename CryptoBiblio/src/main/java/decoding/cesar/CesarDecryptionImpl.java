@@ -5,7 +5,7 @@ import utils.Convertor;
 /**
  * Created by Loïc on 14/10/2017.
  */
-public class CesarDecoderImpl implements CesarDecoder {
+public class CesarDecryptionImpl implements CesarDecryption {
 
 
     public String decryptor(String data, int shifter) {

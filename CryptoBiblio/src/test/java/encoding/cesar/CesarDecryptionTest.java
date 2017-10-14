@@ -1,18 +1,18 @@
 package encoding.cesar;
 
-import decoding.cesar.CesarDecoder;
-import decoding.cesar.CesarDecoderImpl;
+import decoding.cesar.CesarDecryption;
+import decoding.cesar.CesarDecryptionImpl;
 import org.junit.Test;
 
 /**
  * Created by Loïc on 14/10/2017.
  */
-public class CesarDecoderTest {
+public class CesarDecryptionTest {
 
     @Test
     public void oneCharTest(){
         String data = "defgh";
-        CesarDecoder cd = new CesarDecoderImpl();
+        CesarDecryption cd = new CesarDecryptionImpl();
         String res = cd.decryptor(data, 3);
         System.out.println("Decoder for data : "+data+ " : "+res);
     }

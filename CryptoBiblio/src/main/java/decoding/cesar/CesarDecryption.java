@@ -3,7 +3,7 @@ package decoding.cesar;
 /**
  * Created by Loïc on 14/10/2017.
  */
-public interface CesarDecoder {
+public interface CesarDecryption {
 
     /**
      * This method is for decrypt data with Cesar method.
