@@ -1,5 +1,7 @@
-package encoding.cesar;
+package encryption.cesar;
 
+import encryption.CesarEncryption;
+import encryption.CesarEncryptionImpl;
 import org.junit.Assert;
 import org.junit.Test;
 

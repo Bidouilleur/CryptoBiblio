@@ -1,4 +1,4 @@
-package encoding.cesar;
+package encryption;
 
 import utils.Convertor;
 

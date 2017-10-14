@@ -1,12 +1,12 @@
-package decoding.cesar;
+package encryption;
 
 /**
- * Created by Loïc on 14/10/2017.
+ * Created by lePetitBidouilleur on 19/02/15.
  */
-public interface CesarDecryption {
+public interface CesarEncryption {
 
     /**
-     * This method is for decrypt data with Cesar method.
+     * This method is for encrypt data with Cesar method.
      * All characters or digit is represented by ascii code.
      * In this method we shit the value of this ascii representation.
      * This method manage all characters or digit where ascii representation
@@ -14,5 +14,6 @@ public interface CesarDecryption {
      * @param data
      * @return
      */
-    String decryptor (String data, int shifter);
+    String encryptor (String data, int shifter);
+
 }

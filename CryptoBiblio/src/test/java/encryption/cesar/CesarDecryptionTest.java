@@ -1,7 +1,7 @@
-package encoding.cesar;
+package encryption.cesar;
 
-import decoding.cesar.CesarDecryption;
-import decoding.cesar.CesarDecryptionImpl;
+import decryption.cesar.CesarDecryption;
+import decryption.cesar.CesarDecryptionImpl;
 import org.junit.Test;
 
 /**
