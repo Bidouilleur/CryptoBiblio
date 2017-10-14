@@ -16,5 +16,4 @@ public interface CesarCipher {
      */
     String encryptor (String datas, int shifter);
 
-
 }
